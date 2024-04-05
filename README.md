@@ -1,1 +1,1 @@
-# HydroBV2
+# HydroB-V2-Kicad
