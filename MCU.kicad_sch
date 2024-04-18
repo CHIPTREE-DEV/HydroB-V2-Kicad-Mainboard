@@ -2004,23 +2004,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 99.06) (xy 196.85 99.06)
+			(xy 152.4 125.73) (xy 162.56 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "065a50e0-8dd6-454d-93e6-2720e489e94a")
-	)
-	(wire
-		(pts
-			(xy 196.85 95.25) (xy 186.69 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d367121-c47c-4200-9a28-f248f98c29f1")
+		(uuid "139b29b5-c145-4742-aa37-045865b9accd")
 	)
 	(wire
 		(pts
@@ -2051,26 +2041,6 @@
 			(type default)
 		)
 		(uuid "3509165f-938f-4b79-9fd3-f8910fe0af67")
-	)
-	(wire
-		(pts
-			(xy 186.69 101.6) (xy 186.69 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "429aa124-45c1-4ab9-8fcd-9ef8fdbc5b37")
-	)
-	(wire
-		(pts
-			(xy 186.69 95.25) (xy 186.69 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a1eb77e-6cfc-46e4-9bf7-e6155e427f9c")
 	)
 	(wire
 		(pts
@@ -2290,6 +2260,28 @@
 		)
 		(uuid "eee039f1-f26a-4495-9ad1-e16094a716b7")
 	)
+	(label "LED"
+		(at 162.56 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0160dbf3-71d7-4b03-b98e-a320bcbb09e5")
+	)
+	(label "LED"
+		(at 88.9 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "180568a5-d162-413f-aaec-171afe7dae62")
+	)
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 121.92 87.63 180)
@@ -2314,18 +2306,6 @@
 		)
 		(uuid "077a56a4-f4da-48e5-a41f-0a69c2baede8")
 	)
-	(hierarchical_label "LED"
-		(shape input)
-		(at 152.4 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "175fd1bd-73d7-4245-979a-8ae2dd5b6d25")
-	)
 	(hierarchical_label "RELAY_4"
 		(shape input)
 		(at 152.4 120.65 0)
@@ -2349,18 +2329,6 @@
 			(justify right)
 		)
 		(uuid "2eb2281f-6ee7-4b2c-942f-33ae5d40151d")
-	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 196.85 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4dfb5cd4-8ef0-47fc-a106-59dbf47516f1")
 	)
 	(hierarchical_label "IO8"
 		(shape input)
@@ -2422,18 +2390,6 @@
 		)
 		(uuid "9e984246-5387-4e1e-b016-9e4c6792a54e")
 	)
-	(hierarchical_label "LED"
-		(shape input)
-		(at 88.9 101.6 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a0e58c2e-7fb6-476d-98ca-458447fa2b3a")
-	)
 	(hierarchical_label "D-"
 		(shape input)
 		(at 152.4 90.17 0)
@@ -2457,18 +2413,6 @@
 			(justify right)
 		)
 		(uuid "d5881efe-4259-4aeb-9a8f-85ec41be9bc4")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 196.85 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8083fef-5029-439e-b7ae-78cbf1de4f2b")
 	)
 	(hierarchical_label "IO9"
 		(shape input)
@@ -2766,72 +2710,6 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 186.69 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "626d4468-576c-4ca6-8526-966bf3341df1")
-		(property "Reference" "#PWR075"
-			(at 186.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 186.69 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6dad16b4-7d98-4585-8917-41784c301293")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
-					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3624,72 +3502,6 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7975cc7-f233-447f-9313-8227ab5d47c7")
-		(property "Reference" "#PWR076"
-			(at 186.69 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d2d3d2d-197a-418c-a355-b82e8200f894")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)

@@ -1450,7 +1450,7 @@
 		(uuid "d77ec94e-b3ea-4e6c-94ef-f08d9320a0ae")
 	)
 	(no_connect
-		(at 220.218 66.04)
+		(at 219.71 66.04)
 		(uuid "34005775-ecfd-451e-8d46-8353c10153c0")
 	)
 	(no_connect
@@ -1458,15 +1458,15 @@
 		(uuid "479761e7-7221-478b-8c7e-a0978c4b28f6")
 	)
 	(no_connect
-		(at 112.268 119.38)
+		(at 111.76 119.38)
 		(uuid "680f0cf5-2ed1-472f-a43a-405f49a34b55")
 	)
 	(no_connect
-		(at 154.178 66.04)
+		(at 153.67 66.04)
 		(uuid "7eba8f4d-bb93-456a-b19d-9bf9784a2bae")
 	)
 	(no_connect
-		(at 199.898 119.38)
+		(at 199.39 119.38)
 		(uuid "d0bc388b-f468-45e5-b4e0-1f9f7fffbd4a")
 	)
 	(wire
@@ -1481,17 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 142.24) (xy 217.17 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b25d03c-239b-4de2-8f2a-3f19429fd0ae")
-	)
-	(wire
-		(pts
-			(xy 132.08 58.42) (xy 138.938 58.42)
+			(xy 132.08 58.42) (xy 138.43 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +1491,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 111.76) (xy 97.028 111.76)
+			(xy 90.17 111.76) (xy 96.52 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1521,7 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.178 60.96) (xy 160.528 60.96)
+			(xy 153.67 60.96) (xy 160.02 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1541,7 +1531,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.218 60.96) (xy 226.568 60.96)
+			(xy 219.71 60.96) (xy 226.06 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1551,7 +1541,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.292 76.2) (xy 50.292 74.93)
+			(xy 50.8 76.2) (xy 50.8 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1561,7 +1551,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.292 74.93) (xy 54.61 74.93)
+			(xy 50.8 74.93) (xy 54.61 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1581,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 66.04) (xy 138.938 66.04)
+			(xy 132.08 66.04) (xy 138.43 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1601,7 +1591,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 119.38) (xy 97.028 119.38)
+			(xy 90.17 119.38) (xy 96.52 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1611,17 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 146.05) (xy 217.17 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37c24522-4930-40d6-a575-9df6bdf8025d")
-	)
-	(wire
-		(pts
-			(xy 199.898 111.76) (xy 206.248 111.76)
+			(xy 199.39 111.76) (xy 205.74 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +1611,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.178 58.42) (xy 160.528 58.42)
+			(xy 153.67 58.42) (xy 160.02 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1641,7 +1621,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.218 58.42) (xy 226.568 58.42)
+			(xy 219.71 58.42) (xy 226.06 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1651,17 +1631,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 142.24) (xy 217.17 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "650157b3-5ee1-41fd-9e69-dc62474e196d")
-	)
-	(wire
-		(pts
-			(xy 112.268 114.3) (xy 118.618 114.3)
+			(xy 111.76 114.3) (xy 118.11 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1681,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.268 111.76) (xy 118.618 111.76)
+			(xy 111.76 111.76) (xy 118.11 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1761,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 58.42) (xy 204.978 58.42)
+			(xy 198.12 58.42) (xy 204.47 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1771,17 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 146.05) (xy 217.17 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c424cf48-05d3-46f3-b73c-8194d72a3a15")
-	)
-	(wire
-		(pts
-			(xy 177.8 111.76) (xy 184.658 111.76)
+			(xy 177.8 111.76) (xy 184.15 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1841,7 +1801,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.898 114.3) (xy 206.248 114.3)
+			(xy 199.39 114.3) (xy 205.74 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1861,7 +1821,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 119.38) (xy 184.658 119.38)
+			(xy 177.8 119.38) (xy 184.15 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1871,7 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 66.04) (xy 204.978 66.04)
+			(xy 198.12 66.04) (xy 204.47 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1923,7 +1883,7 @@
 	)
 	(text "RELAY-1\n"
 		(exclude_from_sim no)
-		(at 81.534 78.486 0)
+		(at 81.28 78.74 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1935,7 +1895,7 @@
 	)
 	(text "Block Relay\n"
 		(exclude_from_sim no)
-		(at 126.492 41.402 0)
+		(at 127 41.91 0)
 		(effects
 			(font
 				(size 4 4)
@@ -1947,7 +1907,7 @@
 	)
 	(text "RELAY-3\n"
 		(exclude_from_sim no)
-		(at 216.662 78.486 0)
+		(at 217.17 78.74 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1959,7 +1919,7 @@
 	)
 	(text "RELAY-2\n\n"
 		(exclude_from_sim no)
-		(at 150.622 78.486 0)
+		(at 151.13 78.74 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1971,7 +1931,7 @@
 	)
 	(text "RELAY-4\n"
 		(exclude_from_sim no)
-		(at 108.712 131.826 0)
+		(at 109.22 132.08 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1983,7 +1943,7 @@
 	)
 	(text "RELAY-5\n"
 		(exclude_from_sim no)
-		(at 196.342 131.826 0)
+		(at 196.85 132.08 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2031,7 +1991,7 @@
 	)
 	(hierarchical_label "RELAY_1"
 		(shape input)
-		(at 50.292 83.82 270)
+		(at 50.8 83.82 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2040,30 +2000,6 @@
 			(justify right)
 		)
 		(uuid "a649c90d-2505-466f-b41e-4d2153e3fbe7")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 226.06 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d56404ec-5fd5-4e54-8083-47ffd1f130fa")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 226.06 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e4a0d6f1-b9b7-4a28-950b-ee598ab14aee")
 	)
 	(hierarchical_label "RELAY_4"
 		(shape input)
@@ -2146,7 +2082,7 @@
 	(symbol
 		(lib_name "SRD-05VDC-SL-C_1")
 		(lib_id "SRD-05VDC-SL-C:SRD-05VDC-SL-C")
-		(at 192.278 114.3 0)
+		(at 191.77 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2155,7 +2091,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a17af6b-f7cc-4196-90e6-280cfca9eba1")
 		(property "Reference" "K9"
-			(at 192.278 104.14 0)
+			(at 191.77 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2099,7 @@
 			)
 		)
 		(property "Value" "SRD-05VDC-SL-C"
-			(at 192.278 106.68 0)
+			(at 191.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2107,7 @@
 			)
 		)
 		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2126,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2135,7 @@
 			)
 		)
 		(property "MF" "Songle Relay"
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +2145,7 @@
 			)
 		)
 		(property "Description_1" "\n5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi\n"
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2155,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-5 Songle Relay"
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2165,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2175,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2185,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7251"
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2195,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2205,7 @@
 			)
 		)
 		(property "MP" "SRD-05VDC-SL-C"
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2215,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2225,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SONGLE RELAY"
-			(at 192.278 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +2554,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 165.608 58.42 0)
+		(at 165.1 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2626,7 +2562,7 @@
 		(dnp no)
 		(uuid "443cb391-ba3c-4f63-b970-dfc9e3e11001")
 		(property "Reference" "J16"
-			(at 168.656 58.42 0)
+			(at 168.148 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2571,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 156.972 64.135 0)
+			(at 156.464 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2580,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 165.608 58.42 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.608 58.42 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2598,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.608 58.42 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2690,7 @@
 	(symbol
 		(lib_name "SRD-05VDC-SL-C_1")
 		(lib_id "SRD-05VDC-SL-C:SRD-05VDC-SL-C")
-		(at 212.598 60.96 0)
+		(at 212.09 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2763,7 +2699,7 @@
 		(fields_autoplaced yes)
 		(uuid "49deea56-6de1-4b56-84f5-b7a5b52bd3fc")
 		(property "Reference" "K10"
-			(at 212.598 50.8 0)
+			(at 212.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2707,7 @@
 			)
 		)
 		(property "Value" "SRD-05VDC-SL-C"
-			(at 212.598 53.34 0)
+			(at 212.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +2715,7 @@
 			)
 		)
 		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +2734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +2743,7 @@
 			)
 		)
 		(property "MF" "Songle Relay"
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2753,7 @@
 			)
 		)
 		(property "Description_1" "\n5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi\n"
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2763,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-5 Songle Relay"
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +2773,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2783,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2793,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7251"
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +2803,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2813,7 @@
 			)
 		)
 		(property "MP" "SRD-05VDC-SL-C"
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +2823,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2833,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SONGLE RELAY"
-			(at 212.598 60.96 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,75 +3083,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 217.17 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63fc376c-6b89-45ab-924d-4fece11be71c")
-		(property "Reference" "#PWR058"
-			(at 217.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 217.17 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 217.17 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02b82810-18a8-4d69-8c32-21afef56f25f")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "SRD-05VDC-SL-C_1")
 		(lib_id "SRD-05VDC-SL-C:SRD-05VDC-SL-C")
-		(at 104.648 114.3 0)
+		(at 104.14 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3224,7 +3094,7 @@
 		(fields_autoplaced yes)
 		(uuid "64c7799a-03c8-4d09-b4c7-6f31907d8f06")
 		(property "Reference" "K7"
-			(at 104.648 104.14 0)
+			(at 104.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3102,7 @@
 			)
 		)
 		(property "Value" "SRD-05VDC-SL-C"
-			(at 104.648 106.68 0)
+			(at 104.14 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +3110,7 @@
 			)
 		)
 		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +3120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3129,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3138,7 @@
 			)
 		)
 		(property "MF" "Songle Relay"
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3148,7 @@
 			)
 		)
 		(property "Description_1" "\n5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi\n"
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3158,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-5 Songle Relay"
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3168,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3178,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +3188,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7251"
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +3198,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,7 +3208,7 @@
 			)
 		)
 		(property "MP" "SRD-05VDC-SL-C"
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3218,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3228,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SONGLE RELAY"
-			(at 104.648 114.3 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3263,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.292 80.01 180)
+		(at 50.8 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3402,7 +3272,7 @@
 		(fields_autoplaced yes)
 		(uuid "6714e813-6da2-4469-b4b6-e47663820263")
 		(property "Reference" "R9"
-			(at 52.959 78.7399 0)
+			(at 53.467 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3281,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 52.959 81.2799 0)
+			(at 53.467 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3290,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 52.07 80.01 90)
+			(at 52.578 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.292 80.01 0)
+			(at 50.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.292 80.01 0)
+			(at 50.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3333,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 231.648 58.42 0)
+		(at 231.14 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3471,7 +3341,7 @@
 		(dnp no)
 		(uuid "6da7f609-e609-4b3b-a18f-c976403e0094")
 		(property "Reference" "J18"
-			(at 234.696 58.42 0)
+			(at 234.188 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3350,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 223.012 64.135 0)
+			(at 222.504 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3359,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 231.648 58.42 0)
+			(at 231.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3368,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.648 58.42 0)
+			(at 231.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3377,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.648 58.42 0)
+			(at 231.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4116,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 123.698 111.76 0)
+		(at 123.19 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4254,7 +4124,7 @@
 		(dnp no)
 		(uuid "b55d11e3-14d8-4134-80b2-bd5e36e005cb")
 		(property "Reference" "J15"
-			(at 126.746 111.76 0)
+			(at 126.238 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4133,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 115.062 117.475 0)
+			(at 114.554 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4142,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 123.698 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.698 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4160,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.698 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4256,7 @@
 	(symbol
 		(lib_name "SRD-05VDC-SL-C_1")
 		(lib_id "SRD-05VDC-SL-C:SRD-05VDC-SL-C")
-		(at 146.558 60.96 0)
+		(at 146.05 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4395,7 +4265,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9136d02-fbf4-4c97-a651-b515941db385")
 		(property "Reference" "K8"
-			(at 146.558 50.8 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4273,7 @@
 			)
 		)
 		(property "Value" "SRD-05VDC-SL-C"
-			(at 146.558 53.34 0)
+			(at 146.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +4281,7 @@
 			)
 		)
 		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +4291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4300,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4309,7 @@
 			)
 		)
 		(property "MF" "Songle Relay"
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +4319,7 @@
 			)
 		)
 		(property "Description_1" "\n5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi\n"
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4329,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-5 Songle Relay"
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4339,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,7 +4349,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4359,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7251"
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4369,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +4379,7 @@
 			)
 		)
 		(property "MP" "SRD-05VDC-SL-C"
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,7 +4389,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +4399,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SONGLE RELAY"
-			(at 146.558 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,7 +4434,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 211.328 111.76 0)
+		(at 210.82 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4572,7 +4442,7 @@
 		(dnp no)
 		(uuid "d06b0c6b-4c3a-482b-86ad-4100ddc932ee")
 		(property "Reference" "J17"
-			(at 214.376 111.76 0)
+			(at 213.868 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4451,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 202.692 117.475 0)
+			(at 202.184 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4460,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 211.328 111.76 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4469,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 211.328 111.76 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 211.328 111.76 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,72 +4562,6 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3a14abb-2197-4ac7-847f-4509baee9d68")
-		(property "Reference" "#PWR059"
-			(at 217.17 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd57b933-ca3a-47b1-8a36-ac3a3f2faa1f")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
