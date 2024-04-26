@@ -1172,7 +1172,7 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1189,7 +1189,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+12V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1215,7 +1215,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1233,7 +1233,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+12V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1271,7 +1271,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1450,7 +1450,7 @@
 		(uuid "d77ec94e-b3ea-4e6c-94ef-f08d9320a0ae")
 	)
 	(no_connect
-		(at 219.71 66.04)
+		(at 220.218 66.04)
 		(uuid "34005775-ecfd-451e-8d46-8353c10153c0")
 	)
 	(no_connect
@@ -1458,15 +1458,15 @@
 		(uuid "479761e7-7221-478b-8c7e-a0978c4b28f6")
 	)
 	(no_connect
-		(at 111.76 119.38)
+		(at 112.268 119.38)
 		(uuid "680f0cf5-2ed1-472f-a43a-405f49a34b55")
 	)
 	(no_connect
-		(at 153.67 66.04)
+		(at 154.178 66.04)
 		(uuid "7eba8f4d-bb93-456a-b19d-9bf9784a2bae")
 	)
 	(no_connect
-		(at 199.39 119.38)
+		(at 199.898 119.38)
 		(uuid "d0bc388b-f468-45e5-b4e0-1f9f7fffbd4a")
 	)
 	(wire
@@ -1481,7 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 58.42) (xy 138.43 58.42)
+			(xy 132.08 58.42) (xy 138.938 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +1491,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 111.76) (xy 96.52 111.76)
+			(xy 90.17 111.76) (xy 97.028 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1511,7 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 60.96) (xy 160.02 60.96)
+			(xy 154.178 60.96) (xy 160.528 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1531,7 +1531,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 60.96) (xy 226.06 60.96)
+			(xy 220.218 60.96) (xy 226.568 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1541,7 +1541,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 76.2) (xy 50.8 74.93)
+			(xy 50.292 76.2) (xy 50.292 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1551,7 +1551,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 74.93) (xy 54.61 74.93)
+			(xy 50.292 74.93) (xy 54.61 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1571,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 66.04) (xy 138.43 66.04)
+			(xy 132.08 66.04) (xy 138.938 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1591,7 +1591,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 119.38) (xy 96.52 119.38)
+			(xy 90.17 119.38) (xy 97.028 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1601,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 111.76) (xy 205.74 111.76)
+			(xy 199.898 111.76) (xy 206.248 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1611,7 +1611,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 58.42) (xy 160.02 58.42)
+			(xy 154.178 58.42) (xy 160.528 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1621,7 +1621,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 58.42) (xy 226.06 58.42)
+			(xy 220.218 58.42) (xy 226.568 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +1631,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 114.3) (xy 118.11 114.3)
+			(xy 112.268 114.3) (xy 118.618 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 111.76) (xy 118.11 111.76)
+			(xy 112.268 111.76) (xy 118.618 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1731,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 58.42) (xy 204.47 58.42)
+			(xy 198.12 58.42) (xy 204.978 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1741,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 111.76) (xy 184.15 111.76)
+			(xy 177.8 111.76) (xy 184.658 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1801,7 +1801,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 114.3) (xy 205.74 114.3)
+			(xy 199.898 114.3) (xy 206.248 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1821,7 +1821,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 119.38) (xy 184.15 119.38)
+			(xy 177.8 119.38) (xy 184.658 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 66.04) (xy 204.47 66.04)
+			(xy 198.12 66.04) (xy 204.978 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1883,7 +1883,7 @@
 	)
 	(text "RELAY-1\n"
 		(exclude_from_sim no)
-		(at 81.28 78.74 0)
+		(at 81.534 78.486 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1895,7 +1895,7 @@
 	)
 	(text "Block Relay\n"
 		(exclude_from_sim no)
-		(at 127 41.91 0)
+		(at 126.492 41.402 0)
 		(effects
 			(font
 				(size 4 4)
@@ -1907,7 +1907,7 @@
 	)
 	(text "RELAY-3\n"
 		(exclude_from_sim no)
-		(at 217.17 78.74 0)
+		(at 216.662 78.486 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1919,7 +1919,7 @@
 	)
 	(text "RELAY-2\n\n"
 		(exclude_from_sim no)
-		(at 151.13 78.74 0)
+		(at 150.622 78.486 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1931,7 +1931,7 @@
 	)
 	(text "RELAY-4\n"
 		(exclude_from_sim no)
-		(at 109.22 132.08 0)
+		(at 108.712 131.826 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1943,7 +1943,7 @@
 	)
 	(text "RELAY-5\n"
 		(exclude_from_sim no)
-		(at 196.85 132.08 0)
+		(at 196.342 131.826 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1991,7 +1991,7 @@
 	)
 	(hierarchical_label "RELAY_1"
 		(shape input)
-		(at 50.8 83.82 270)
+		(at 50.292 83.82 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2012,6 +2012,72 @@
 			(justify right)
 		)
 		(uuid "ee512e0b-46bb-4a95-844f-3b00d11e63aa")
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 90.17 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1424292e-e3a6-4364-9b61-1d2f43ee8e69")
+		(property "Reference" "#PWR019"
+			(at 90.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "803988ba-edde-489f-8c9d-fdc3dd71af52")
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2082,7 +2148,7 @@
 	(symbol
 		(lib_name "SRD-05VDC-SL-C_1")
 		(lib_id "SRD-05VDC-SL-C:SRD-05VDC-SL-C")
-		(at 191.77 114.3 0)
+		(at 192.278 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2091,7 +2157,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a17af6b-f7cc-4196-90e6-280cfca9eba1")
 		(property "Reference" "K9"
-			(at 191.77 104.14 0)
+			(at 192.278 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2165,7 @@
 			)
 		)
 		(property "Value" "SRD-05VDC-SL-C"
-			(at 191.77 106.68 0)
+			(at 192.278 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2173,7 @@
 			)
 		)
 		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2201,7 @@
 			)
 		)
 		(property "MF" "Songle Relay"
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2211,7 @@
 			)
 		)
 		(property "Description_1" "\n5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi\n"
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,7 +2221,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-5 Songle Relay"
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2231,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2241,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2251,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7251"
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2261,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2271,7 @@
 			)
 		)
 		(property "MP" "SRD-05VDC-SL-C"
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2281,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2291,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SONGLE RELAY"
-			(at 191.77 114.3 0)
+			(at 192.278 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,6 +2406,138 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 132.08 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "235c5d6a-5e67-4b63-82af-b71b7e364549")
+		(property "Reference" "#PWR016"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 132.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 132.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cc0a637-0878-450a-88c3-7f553306fb1c")
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 62.23 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c6f3427-40a9-47d2-ab7c-b8be19cd5fdb")
+		(property "Reference" "#PWR015"
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 62.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5cd2df9-ec43-4bb3-9b89-2b5af28f7d90")
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2487,17 +2685,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 62.23 57.15 0)
+		(lib_id "power:+12V")
+		(at 177.8 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "43b3ad5a-e013-4789-96fd-97a073c6de75")
-		(property "Reference" "#PWR048"
-			(at 62.23 60.96 0)
+		(uuid "43d21175-e455-44a3-87e2-61ea9a474dd2")
+		(property "Reference" "#PWR018"
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,8 +2703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 62.23 52.07 0)
+		(property "Value" "+12V"
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +2712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 57.15 0)
+			(at 177.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 57.15 0)
+			(at 177.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,8 +2729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 57.15 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 177.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,12 +2739,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f992fb7d-29ea-4ffc-a132-f9ce6c0f4ef5")
+			(uuid "980c894e-1eb0-45d7-bee7-df98345b9892")
 		)
 		(instances
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
-					(reference "#PWR048")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2554,7 +2752,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 165.1 58.42 0)
+		(at 165.608 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2562,7 +2760,7 @@
 		(dnp no)
 		(uuid "443cb391-ba3c-4f63-b970-dfc9e3e11001")
 		(property "Reference" "J16"
-			(at 168.148 58.42 0)
+			(at 168.656 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2769,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 156.464 64.135 0)
+			(at 156.972 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2778,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 165.1 58.42 0)
+			(at 165.608 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 58.42 0)
+			(at 165.608 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2796,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 58.42 0)
+			(at 165.608 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +2888,7 @@
 	(symbol
 		(lib_name "SRD-05VDC-SL-C_1")
 		(lib_id "SRD-05VDC-SL-C:SRD-05VDC-SL-C")
-		(at 212.09 60.96 0)
+		(at 212.598 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2699,7 +2897,7 @@
 		(fields_autoplaced yes)
 		(uuid "49deea56-6de1-4b56-84f5-b7a5b52bd3fc")
 		(property "Reference" "K10"
-			(at 212.09 50.8 0)
+			(at 212.598 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,7 +2905,7 @@
 			)
 		)
 		(property "Value" "SRD-05VDC-SL-C"
-			(at 212.09 53.34 0)
+			(at 212.598 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2913,7 @@
 			)
 		)
 		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2932,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2941,7 @@
 			)
 		)
 		(property "MF" "Songle Relay"
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2951,7 @@
 			)
 		)
 		(property "Description_1" "\n5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi\n"
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2961,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-5 Songle Relay"
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +2971,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2981,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2991,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7251"
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +3001,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +3011,7 @@
 			)
 		)
 		(property "MP" "SRD-05VDC-SL-C"
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +3021,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +3031,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SONGLE RELAY"
-			(at 212.09 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,75 +3215,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 90.17 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "518e0a3f-1a45-4c78-b463-038774c5ec84")
-		(property "Reference" "#PWR050"
-			(at 90.17 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 90.17 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 90.17 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "626692d2-f942-4940-aeea-6aad8a77d06f")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "SRD-05VDC-SL-C_1")
 		(lib_id "SRD-05VDC-SL-C:SRD-05VDC-SL-C")
-		(at 104.14 114.3 0)
+		(at 104.648 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3094,7 +3226,7 @@
 		(fields_autoplaced yes)
 		(uuid "64c7799a-03c8-4d09-b4c7-6f31907d8f06")
 		(property "Reference" "K7"
-			(at 104.14 104.14 0)
+			(at 104.648 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3234,7 @@
 			)
 		)
 		(property "Value" "SRD-05VDC-SL-C"
-			(at 104.14 106.68 0)
+			(at 104.648 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3242,7 @@
 			)
 		)
 		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3261,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3270,7 @@
 			)
 		)
 		(property "MF" "Songle Relay"
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3280,7 @@
 			)
 		)
 		(property "Description_1" "\n5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi\n"
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3290,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-5 Songle Relay"
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3300,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3310,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3320,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7251"
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3330,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,7 +3340,7 @@
 			)
 		)
 		(property "MP" "SRD-05VDC-SL-C"
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3350,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3360,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SONGLE RELAY"
-			(at 104.14 114.3 0)
+			(at 104.648 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3395,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 80.01 180)
+		(at 50.292 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3272,7 +3404,7 @@
 		(fields_autoplaced yes)
 		(uuid "6714e813-6da2-4469-b4b6-e47663820263")
 		(property "Reference" "R9"
-			(at 53.467 78.7399 0)
+			(at 52.959 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +3413,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 53.467 81.2799 0)
+			(at 52.959 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3422,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 52.578 80.01 90)
+			(at 52.07 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3431,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 80.01 0)
+			(at 50.292 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 80.01 0)
+			(at 50.292 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +3465,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 231.14 58.42 0)
+		(at 231.648 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3341,7 +3473,7 @@
 		(dnp no)
 		(uuid "6da7f609-e609-4b3b-a18f-c976403e0094")
 		(property "Reference" "J18"
-			(at 234.188 58.42 0)
+			(at 234.696 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3482,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 222.504 64.135 0)
+			(at 223.012 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3491,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 231.14 58.42 0)
+			(at 231.648 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3368,7 +3500,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 58.42 0)
+			(at 231.648 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +3509,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 58.42 0)
+			(at 231.648 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,72 +3666,6 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 177.8 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a45839b-0250-4c55-80e7-4b846ed81e6f")
-		(property "Reference" "#PWR054"
-			(at 177.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 177.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 177.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a71a851-f2ec-4df1-94f7-a5da83ae6209")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3887,72 +3953,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 132.08 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad76f65c-e755-4416-adac-7f5e2202f947")
-		(property "Reference" "#PWR052"
-			(at 132.08 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 132.08 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 132.08 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a65c4e8-402b-43ba-b41b-cc1233450433")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:LL4148")
 		(at 132.08 62.23 270)
 		(unit 1)
@@ -4116,7 +4116,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 123.19 111.76 0)
+		(at 123.698 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4124,7 +4124,7 @@
 		(dnp no)
 		(uuid "b55d11e3-14d8-4134-80b2-bd5e36e005cb")
 		(property "Reference" "J15"
-			(at 126.238 111.76 0)
+			(at 126.746 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +4133,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 114.554 117.475 0)
+			(at 115.062 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,7 +4142,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 123.19 111.76 0)
+			(at 123.698 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +4151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 111.76 0)
+			(at 123.698 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +4160,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 111.76 0)
+			(at 123.698 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4256,7 @@
 	(symbol
 		(lib_name "SRD-05VDC-SL-C_1")
 		(lib_id "SRD-05VDC-SL-C:SRD-05VDC-SL-C")
-		(at 146.05 60.96 0)
+		(at 146.558 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4265,7 +4265,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9136d02-fbf4-4c97-a651-b515941db385")
 		(property "Reference" "K8"
-			(at 146.05 50.8 0)
+			(at 146.558 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4273,7 @@
 			)
 		)
 		(property "Value" "SRD-05VDC-SL-C"
-			(at 146.05 53.34 0)
+			(at 146.558 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4281,7 @@
 			)
 		)
 		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4300,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4309,7 @@
 			)
 		)
 		(property "MF" "Songle Relay"
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4319,7 @@
 			)
 		)
 		(property "Description_1" "\n5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi\n"
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +4329,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-5 Songle Relay"
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4339,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4349,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4359,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7251"
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4369,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4379,7 @@
 			)
 		)
 		(property "MP" "SRD-05VDC-SL-C"
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4389,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4399,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SONGLE RELAY"
-			(at 146.05 60.96 0)
+			(at 146.558 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4434,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 210.82 111.76 0)
+		(at 211.328 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4442,7 +4442,7 @@
 		(dnp no)
 		(uuid "d06b0c6b-4c3a-482b-86ad-4100ddc932ee")
 		(property "Reference" "J17"
-			(at 213.868 111.76 0)
+			(at 214.376 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +4451,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 202.184 117.475 0)
+			(at 202.692 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4460,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 210.82 111.76 0)
+			(at 211.328 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4469,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 111.76 0)
+			(at 211.328 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 111.76 0)
+			(at 211.328 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,72 +4568,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 198.12 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4233f74-a93d-4764-b544-4387546b1f80")
-		(property "Reference" "#PWR056"
-			(at 198.12 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 198.12 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 198.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "892a56dc-433b-40ce-91af-0025cdd7f064")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:LL4148")
 		(at 198.12 62.23 270)
 		(unit 1)
@@ -4715,6 +4649,72 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 198.12 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d72f38da-a0cf-4ff6-a790-9cfa5dad723d")
+		(property "Reference" "#PWR017"
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 198.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e431c89-ae4b-4626-93e5-7a8ac59d84f2")
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
