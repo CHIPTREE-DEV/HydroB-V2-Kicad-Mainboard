@@ -5,9 +5,9 @@
 	(uuid "0a8bb8df-6bdd-4d10-933b-144d3fa4f517")
 	(paper "A4")
 	(lib_symbols)
-	(text "Sheet 1: Project review \n\nSheet 2: Block of the 5 relay\n\nSheet 3: Block of the sensor PH, EC, Temp...\n\nSheet 4: MCU ESP32-S3\n\nSheet 5: Block of Power supply the buck converter and regulator\n\nSheet 6: USB type and the reset and boot button"
+	(text "Sheet 1: Project review \n\nSheet 2: Block of the 5 relay\n\nSheet 3: Block of the sensor PH, EC...\n\nSheet 4: MCU STM32F103C8\n\nSheet 5: Block of Power supply the buck converter and regulator\n\nSheet 6: CANBUS TRANCEIVER\n"
 		(exclude_from_sim no)
-		(at 17.526 18.034 0)
+		(at 19.05 56.896 0)
 		(effects
 			(font
 				(size 3 3)
@@ -19,7 +19,7 @@
 		(uuid "303db453-ad8f-4ce9-9da8-215349d7b93e")
 	)
 	(sheet
-		(at 17.78 80.772)
+		(at 17.78 19.812)
 		(size 46.228 28.448)
 		(fields_autoplaced yes)
 		(stroke
@@ -32,7 +32,7 @@
 		)
 		(uuid "b5cea501-254b-4c6a-af47-d8c013c279ab")
 		(property "Sheetname" "HydroB"
-			(at 17.78 80.0604 0)
+			(at 17.78 19.1004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Sheetfile" "HydroB.kicad_sch"
-			(at 17.78 109.8046 0)
+			(at 17.78 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

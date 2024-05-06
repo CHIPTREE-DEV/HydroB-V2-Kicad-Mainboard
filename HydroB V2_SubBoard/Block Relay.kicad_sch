@@ -2172,7 +2172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
+		(property "Footprint" "SRD-05VDC-SL-C (1):RELAY_SRD-05VDC-SL-C"
 			(at 192.278 114.3 0)
 			(effects
 				(font
@@ -2912,7 +2912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
+		(property "Footprint" "SRD-05VDC-SL-C (1):RELAY_SRD-05VDC-SL-C"
 			(at 212.598 60.96 0)
 			(effects
 				(font
@@ -3241,7 +3241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
+		(property "Footprint" "SRD-05VDC-SL-C (1):RELAY_SRD-05VDC-SL-C"
 			(at 104.648 114.3 0)
 			(effects
 				(font
@@ -4280,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
+		(property "Footprint" "SRD-05VDC-SL-C (1):RELAY_SRD-05VDC-SL-C"
 			(at 146.558 60.96 0)
 			(effects
 				(font
@@ -4834,7 +4834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
+		(property "Footprint" "SRD-05VDC-SL-C (1):RELAY_SRD-05VDC-SL-C"
 			(at 77.47 60.96 0)
 			(effects
 				(font

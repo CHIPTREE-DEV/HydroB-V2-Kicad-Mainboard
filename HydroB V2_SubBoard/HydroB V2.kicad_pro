@@ -631,27 +631,15 @@
     ],
     [
       "ec9ee8ef-fc9d-4925-9304-49bf7b4d5612",
-      "ESP32-S3"
+      "STM32F103C8"
     ],
     [
       "d50825f3-7645-4f22-8c9c-6a6002c3efba",
       "Power Supply1"
     ],
     [
-      "768fe99b-0ade-4ebe-9148-804d23124789",
-      "USB-UART1"
-    ],
-    [
-      "d1ed48d8-a424-4232-99f9-d06a312120d1",
-      "LCD"
-    ],
-    [
-      "bb033410-278f-4fbc-8d7b-43930f1630e7",
-      "LED"
-    ],
-    [
-      "5c23272d-1016-4efb-92bd-c50aaeb62ba1",
-      "boost converter"
+      "c3637c88-c6a2-4b34-bb60-5c689faa68ea",
+      "Canbus tranceiver "
     ]
   ],
   "text_variables": {}
