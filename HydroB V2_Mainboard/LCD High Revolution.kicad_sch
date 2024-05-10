@@ -1,0 +1,64 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7eaed49e-949c-4b32-bb59-42041e199453")
+	(paper "A4")
+	(lib_symbols)
+	(text "Sheet 1: Root\n\nSheet 2: Project review of LCD\n\nSheet 3: ESP32-S3\n\nSheet 4: LCD Connector\n\nSheet 5: Boost LED converter\n\nSheet 6: Step_LED Power\n\nSheet 7: USB type and the reset and boot button\n\nSheet 8: Power Supply\n"
+		(exclude_from_sim no)
+		(at 18.542 64.262 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "64aed11f-2ac4-4b09-afe0-8dec00445d13")
+	)
+	(sheet
+		(at 19.05 22.86)
+		(size 43.18 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "cb3a589e-3872-4cde-9770-3d39d4934022")
+		(property "Sheetname" "LCD"
+			(at 19.05 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 19.05 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

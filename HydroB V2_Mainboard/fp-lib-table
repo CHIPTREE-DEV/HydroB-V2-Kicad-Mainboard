@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TPS7A2633DRVR")(type "KiCad")(uri "D:/kicad file/TPS7A2633DRVR")(options "")(descr ""))
+)
