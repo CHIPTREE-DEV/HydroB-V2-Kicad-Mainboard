@@ -2104,10 +2104,6 @@
 		(uuid "4e1f4beb-befb-4d0e-a75c-57c89942769d")
 	)
 	(no_connect
-		(at 157.48 91.44)
-		(uuid "7094f93a-0d9d-4cc5-b009-9a6688109258")
-	)
-	(no_connect
 		(at 157.48 96.52)
 		(uuid "a2a964d0-e5c3-40c8-8f62-1b993c0f5d0c")
 	)
@@ -2891,6 +2887,18 @@
 			(justify right)
 		)
 		(uuid "c5e2e399-9fda-43f0-ab5f-7e9c1478d9ff")
+	)
+	(hierarchical_label "IO35"
+		(shape input)
+		(at 157.48 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6915c64-e10b-47d8-aa7e-16082688702c")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
