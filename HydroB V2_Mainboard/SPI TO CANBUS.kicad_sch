@@ -996,10 +996,10 @@
 		(uuid "710cd392-b337-4386-8a8a-c387a3a9bacc")
 	)
 	(junction
-		(at 133.35 106.68)
+		(at 133.35 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "854d9628-11ad-4d22-bbba-67fcd23576b9")
+		(uuid "9bedf0d5-6e35-446b-891b-8a40e585c5c7")
 	)
 	(junction
 		(at 156.21 96.52)
@@ -1013,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 118.11 106.68)
+			(xy 118.11 101.6) (xy 118.11 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 107.95) (xy 133.35 106.68)
+			(xy 133.35 111.76) (xy 133.35 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 106.68) (xy 133.35 106.68)
+			(xy 118.11 110.49) (xy 133.35 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1120,6 +1120,16 @@
 			(type default)
 		)
 		(uuid "eef18437-9821-4753-833e-b4e33eaf1367")
+	)
+	(wire
+		(pts
+			(xy 133.35 110.49) (xy 133.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd32ece-c3b0-4cb0-9868-1f85072183b3")
 	)
 	(wire
 		(pts
@@ -1386,7 +1396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 162.56 99.06 0)
 			(effects
 				(font
@@ -1430,7 +1440,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 107.95 0)
+		(at 133.35 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1439,7 +1449,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c55886c-75d0-4857-b801-5c2771508d76")
 		(property "Reference" "#PWR056"
-			(at 133.35 114.3 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 113.03 0)
+			(at 133.35 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,7 +1466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 107.95 0)
+			(at 133.35 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 107.95 0)
+			(at 133.35 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +1484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 107.95 0)
+			(at 133.35 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +1599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -1626,6 +1636,73 @@
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/7b0d8688-cf5a-48d2-a8a1-82d926c7adcf"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1598ec6-2383-4eac-b4a9-8d4a80e278dc")
+		(property "Reference" "R6"
+			(at 114.3 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 114.3 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 119.888 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f9eedfc-ab6d-4786-909c-77b2c5fa6d91")
+		)
+		(pin "2"
+			(uuid "e706f46a-2ff7-48b3-9a31-3f92fb2d9411")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/7b0d8688-cf5a-48d2-a8a1-82d926c7adcf"
+					(reference "R6")
 					(unit 1)
 				)
 			)
