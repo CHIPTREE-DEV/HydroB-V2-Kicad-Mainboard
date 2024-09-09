@@ -5,9 +5,9 @@
 	(uuid "7eaed49e-949c-4b32-bb59-42041e199453")
 	(paper "A4")
 	(lib_symbols)
-	(text "Sheet 1: Root\n\nSheet 2: Project review of LCD\n\nSheet 3: ESP32-S3\n\nSheet 4: LCD Connector\n\nSheet 5: Boost LED converter\n\nSheet 6: Step_LED Power\n\nSheet 7: USB type and the reset and boot button\n\nSheet 8: Power Supply\n"
+	(text "Sheet 1: Root\n\nSheet 2: Project review of ESP32-S3\n\nSheet 3: Modbus\n\nSheet 4: Power Supply\n\nSheet 5: LED Indicator\n"
 		(exclude_from_sim no)
-		(at 18.542 64.262 0)
+		(at 24.892 71.882 0)
 		(effects
 			(font
 				(size 3 3)
@@ -19,7 +19,7 @@
 		(uuid "64aed11f-2ac4-4b09-afe0-8dec00445d13")
 	)
 	(sheet
-		(at 19.05 22.86)
+		(at 25.4 30.48)
 		(size 43.18 30.48)
 		(fields_autoplaced yes)
 		(stroke
@@ -30,8 +30,8 @@
 			(color 255 255 194 1.0000)
 		)
 		(uuid "cb3a589e-3872-4cde-9770-3d39d4934022")
-		(property "Sheetname" "LCD"
-			(at 19.05 22.1484 0)
+		(property "Sheetname" "Mainboard"
+			(at 25.4 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,8 +39,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LCD.kicad_sch"
-			(at 19.05 53.9246 0)
+		(property "Sheetfile" "Mainboard.kicad_sch"
+			(at 25.4 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

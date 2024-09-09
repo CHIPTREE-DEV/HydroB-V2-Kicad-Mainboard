@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 77.47) (xy 187.96 77.47)
+			(xy 179.07 76.2) (xy 187.96 76.2)
 		)
 		(stroke
 			(width 0)
@@ -27,13 +27,33 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 77.47) (xy 179.07 74.93)
+			(xy 179.07 76.2) (xy 179.07 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ce761e2-5831-4551-831e-c06753192975")
+	)
+	(wire
+		(pts
+			(xy 179.07 91.44) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3fa34b-d126-4cf4-978b-26c62c8b7ebb")
+	)
+	(wire
+		(pts
+			(xy 187.96 87.63) (xy 179.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367995bf-24d8-4d42-a9b6-79dac71ac181")
 	)
 	(wire
 		(pts
@@ -44,6 +64,16 @@
 			(type default)
 		)
 		(uuid "4170c68a-f44f-4ca0-a017-fef53e6f7e34")
+	)
+	(wire
+		(pts
+			(xy 179.07 82.55) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f34af9-886a-43a4-81c5-36ac3dffc211")
 	)
 	(wire
 		(pts
@@ -67,6 +97,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 82.55) (xy 179.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80af9b8c-f0d0-4fba-a92f-a2c372ea7e9b")
+	)
+	(wire
+		(pts
 			(xy 110.49 121.92) (xy 121.92 121.92)
 		)
 		(stroke
@@ -84,6 +124,16 @@
 			(type default)
 		)
 		(uuid "8a4b0eb1-22d9-4704-bb6d-ec362ed4bd58")
+	)
+	(wire
+		(pts
+			(xy 179.07 87.63) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b626abc-8d33-44a1-87e0-6efddd233e7e")
 	)
 	(wire
 		(pts
@@ -154,6 +204,16 @@
 			(type default)
 		)
 		(uuid "c7c8513c-7df5-4ff7-ac5d-062a476a5050")
+	)
+	(wire
+		(pts
+			(xy 179.07 85.09) (xy 168.91 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d487b6ba-5070-45d2-9f2d-4ca9b51a067d")
 	)
 	(sheet
 		(at 128.27 60.96)
@@ -254,6 +314,26 @@
 				(justify right)
 			)
 			(uuid "4e58fa63-5599-43a1-95e3-4115b469e94d")
+		)
+		(pin "RXD" input
+			(at 168.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a541b1ad-2c58-4bd4-9b67-a290351c2d0f")
+		)
+		(pin "TXD" input
+			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d860f031-25f0-4d3c-87e0-6b583e6ff239")
 		)
 		(instances
 			(project "LCD High Revolution"
@@ -391,7 +471,7 @@
 	)
 	(sheet
 		(at 187.96 66.04)
-		(size 18.415 16.51)
+		(size 18.415 26.67)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -412,7 +492,7 @@
 			)
 		)
 		(property "Sheetfile" "LED.kicad_sch"
-			(at 187.96 83.1346 0)
+			(at 187.96 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,7 +511,7 @@
 			(uuid "14c8787a-af91-43e4-840e-441d7fd0fff0")
 		)
 		(pin "LED2" input
-			(at 187.96 77.47 180)
+			(at 187.96 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -439,6 +519,26 @@
 				(justify left)
 			)
 			(uuid "8a9cf64c-638a-4fe7-9d92-04140498bfcd")
+		)
+		(pin "TXD" input
+			(at 187.96 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b1be81b4-c468-4865-b690-e32b04b48064")
+		)
+		(pin "RXD" input
+			(at 187.96 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e07d76f-0e2d-4876-bb92-17c1b6e9d0bb")
 		)
 		(instances
 			(project "LCD High Revolution"

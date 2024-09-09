@@ -3,4 +3,5 @@
   (lib (name "TPS7A2633DRVR")(type "KiCad")(uri "D:/kicad file/TPS7A2633DRVR")(options "")(descr ""))
   (lib (name "NS2009")(type "KiCad")(uri "D:/kicad file/NS2009")(options "")(descr ""))
   (lib (name "74VHC86M")(type "KiCad")(uri "D:/kicad file/74VHC86M")(options "")(descr ""))
+  (lib (name "CAY16-1002F4LF")(type "KiCad")(uri "D:/kicad file/CAY16-1002F4LF")(options "")(descr ""))
 )

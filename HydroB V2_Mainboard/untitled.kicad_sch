@@ -5,6 +5,166 @@
 	(uuid "627e0c67-00a2-494e-88cd-c06642569f0f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -247,6 +407,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -383,33 +645,31 @@
 				)
 			)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "Device:D_TVS"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at -1.27 3.175 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -418,15 +678,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -435,7 +686,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -444,7 +695,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(property "ki_keywords" "diode TVS thyrector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -453,10 +704,31 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Small_0_1"
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
 				(polyline
 					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -468,19 +740,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -490,36 +750,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "LED_Small_1_1"
+			(symbol "D_TVS_1_1"
 				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -535,9 +771,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1415,590 +1651,496 @@
 		)
 	)
 	(junction
-		(at 165.1 92.71)
+		(at 182.88 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b81c5be-6390-4946-80d2-2c61ffaede13")
+		(uuid "162ac98e-2bd5-4fd4-bb85-dec6b5b927e5")
 	)
 	(junction
-		(at 193.04 92.71)
+		(at 170.18 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c0b0471-645d-4413-8278-9b40d10e76fb")
+		(uuid "27964ec2-1955-428f-96bf-d1af9ce343dd")
 	)
 	(junction
-		(at 105.41 73.66)
+		(at 158.75 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5482aba6-2f45-46a0-a315-beb285432f62")
+		(uuid "4296bc9d-a3c7-433c-bdd0-bf96a724b69c")
 	)
 	(junction
-		(at 190.5 95.25)
+		(at 196.85 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "60512eef-6a6f-4061-8b38-b58c6335e568")
+		(uuid "453cab4d-f5e3-40f1-8554-e12630bbb491")
 	)
 	(junction
-		(at 120.65 73.66)
+		(at 170.18 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85ec3e05-c0e8-4429-a882-0cbbf8043bcb")
+		(uuid "6e329599-75ca-4ddb-8dcc-d6daaafdacdc")
 	)
 	(junction
-		(at 160.02 99.06)
+		(at 199.39 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a31818af-3fd3-4e62-bc9c-b758de823663")
+		(uuid "7a78a976-723f-47f3-8240-8fb1e37bd309")
 	)
 	(junction
-		(at 162.56 95.25)
+		(at 158.75 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a780fb17-72ba-409c-8e05-df0e79f923f3")
+		(uuid "7c1f1093-e2e8-4e9c-9f45-897f487d5183")
 	)
 	(junction
-		(at 86.36 73.66)
+		(at 180.34 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "adac4cfb-d02e-49bb-91d2-149cc9ea069a")
+		(uuid "bf950af5-f645-44f4-b425-e9fd16542a46")
 	)
 	(junction
-		(at 140.97 92.71)
+		(at 130.81 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af17a38d-4b25-44de-91cc-4b686fa0bbcc")
+		(uuid "d2828a01-e428-4e22-88ca-9d0e383e1d21")
 	)
 	(junction
-		(at 140.97 102.87)
+		(at 110.49 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c817939f-5b9e-4d64-8745-2f422bc4b947")
+		(uuid "d6ba05af-52d4-46eb-9f26-a03aba80b1ad")
 	)
 	(junction
-		(at 167.64 88.9)
+		(at 167.64 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ceaaa87b-f88c-49c8-b49b-3ef491b8bc9e")
+		(uuid "da8c4841-94d0-4717-9837-6cb2536e5f1e")
 	)
 	(junction
-		(at 109.22 97.79)
+		(at 167.64 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fabe2b1f-eaf4-4125-96b9-798c945263f8")
+		(uuid "ef9acbde-6428-4c53-b531-d908ff068e74")
+	)
+	(junction
+		(at 130.81 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f33cde87-ff5b-4deb-a1a3-0c7eef2d091f")
 	)
 	(wire
 		(pts
-			(xy 80.01 77.47) (xy 80.01 73.66)
+			(xy 130.81 102.87) (xy 130.81 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01bce675-66ce-4cf3-9b91-8557d9b8dbf5")
+		(uuid "000f7c42-56e1-40ce-9a06-a5106373c89f")
 	)
 	(wire
 		(pts
-			(xy 162.56 95.25) (xy 190.5 95.25)
+			(xy 130.81 104.14) (xy 130.81 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03a2e498-6b43-4e20-8428-cc86f81a9797")
+		(uuid "00e01a53-a4d5-4223-906a-8cf74c2bb888")
 	)
 	(wire
 		(pts
-			(xy 130.81 92.71) (xy 130.81 95.25)
+			(xy 120.65 93.98) (xy 120.65 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0411a603-eb87-42df-b59b-5df33c78181e")
+		(uuid "03a9dcce-ef2e-42b5-8af1-ba7590450395")
 	)
 	(wire
 		(pts
-			(xy 204.47 85.09) (xy 193.04 85.09)
+			(xy 219.71 102.87) (xy 219.71 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a980dfd-19d9-433c-8be2-3166fe08b23d")
+		(uuid "046e55aa-7558-468c-b45e-be29a8b8352b")
 	)
 	(wire
 		(pts
-			(xy 167.64 101.6) (xy 167.64 88.9)
+			(xy 170.18 93.98) (xy 170.18 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c6e5a16-a9ca-4c7f-8653-611f74214b1b")
+		(uuid "1342c341-a606-4780-9259-511e46a21bb6")
 	)
 	(wire
 		(pts
-			(xy 167.64 88.9) (xy 195.58 88.9)
+			(xy 180.34 93.98) (xy 180.34 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "125bd38e-2e15-4b1c-8fdd-d1f6f9be925b")
+		(uuid "196dcf0b-723e-45f6-92db-e747814b14db")
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 110.49 92.71)
+			(xy 201.93 115.57) (xy 201.93 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a069013-3a78-4c3b-9fbb-bb53c14f8996")
+		(uuid "24736263-0dc5-4d8b-ad01-f62cc388720f")
 	)
 	(wire
 		(pts
-			(xy 130.81 102.87) (xy 140.97 102.87)
+			(xy 194.31 115.57) (xy 194.31 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f01b2d4-8342-4d1e-84a5-35b00fd1c69a")
+		(uuid "30a75eb0-62ac-4269-bae0-fb38a4d1ab8c")
 	)
 	(wire
 		(pts
-			(xy 160.02 99.06) (xy 187.96 99.06)
+			(xy 180.34 93.98) (xy 196.85 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2255f0bd-a6da-41f5-8f42-85105a499854")
+		(uuid "31322a77-ec8a-4976-a701-f930db51f55f")
 	)
 	(wire
 		(pts
-			(xy 120.65 73.66) (xy 120.65 85.09)
+			(xy 130.81 93.98) (xy 130.81 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25fc0b48-0aa3-4aa5-84a7-693dc72e7ef4")
+		(uuid "358bf910-83f2-456a-8529-2cccbb3ac29f")
 	)
 	(wire
 		(pts
-			(xy 109.22 95.25) (xy 110.49 95.25)
+			(xy 219.71 93.98) (xy 219.71 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "324e2378-2151-498d-bdab-4d31f6203f31")
+		(uuid "36b5b5dc-5761-4066-8833-021af3884c9e")
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 105.41 73.66)
+			(xy 130.81 92.71) (xy 130.81 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "351b7e41-a017-4f2e-a711-596593d515e3")
+		(uuid "3cbe417f-0f2d-4199-a7aa-be16ad046f81")
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 167.64 88.9)
+			(xy 196.85 93.98) (xy 219.71 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "393df1c9-1da1-42e1-93ad-dd504831f218")
+		(uuid "47927936-b248-440e-a27f-caaa019674b1")
 	)
 	(wire
 		(pts
-			(xy 120.65 71.12) (xy 120.65 73.66)
+			(xy 144.78 115.57) (xy 144.78 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ab276ca-d546-4fde-9b07-751ea1ce673c")
+		(uuid "4cc2c1e6-8f33-40a7-b899-c3076b0c5129")
 	)
 	(wire
 		(pts
-			(xy 80.01 82.55) (xy 80.01 83.82)
+			(xy 120.65 101.6) (xy 120.65 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e6eff64-593e-4116-849a-48cddaf9a556")
+		(uuid "51b14d80-8a33-4862-ad0b-ea64c46f9429")
 	)
 	(wire
 		(pts
-			(xy 140.97 102.87) (xy 140.97 104.14)
+			(xy 130.81 104.14) (xy 158.75 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "466fcb1c-3188-434b-b488-d1c6b618dbbe")
+		(uuid "56bdfd30-7944-4eed-b273-37a4639653be")
 	)
 	(wire
 		(pts
-			(xy 106.68 97.79) (xy 109.22 97.79)
+			(xy 196.85 93.98) (xy 196.85 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c4d5f8b-9493-4288-807a-b8dd40f654dc")
+		(uuid "5737119b-925b-4bff-be98-34782091b312")
 	)
 	(wire
 		(pts
-			(xy 80.01 91.44) (xy 80.01 102.87)
+			(xy 177.8 119.38) (xy 177.8 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51b4ee38-3dd3-4f30-8ff7-9fb8d95df54d")
+		(uuid "584ca5c2-fc30-4199-beda-698ce3d4a493")
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 86.36 91.44)
+			(xy 170.18 118.11) (xy 170.18 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cd7b13a-37e1-4eb3-867a-183635db561a")
+		(uuid "5c46a6f3-1d1b-460f-a3f5-9fcebcfb40ce")
 	)
 	(wire
 		(pts
-			(xy 187.96 99.06) (xy 187.96 101.6)
+			(xy 170.18 93.98) (xy 180.34 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "679396a8-2b33-4fd0-b89c-4d3586635475")
+		(uuid "64251cab-9d90-4ba7-8592-8392d5d4339b")
 	)
 	(wire
 		(pts
-			(xy 151.13 95.25) (xy 151.13 102.87)
+			(xy 120.65 104.14) (xy 130.81 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6aff0d96-defd-446c-925b-8a5d9854dc89")
+		(uuid "6bed0d6e-8c08-4366-8444-c20267969922")
 	)
 	(wire
 		(pts
-			(xy 165.1 92.71) (xy 193.04 92.71)
+			(xy 144.78 118.11) (xy 170.18 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71079f51-ef33-4721-ab12-468793600cb0")
+		(uuid "7445f857-1133-4064-8d8f-01c2ebcada46")
 	)
 	(wire
 		(pts
-			(xy 162.56 95.25) (xy 162.56 101.6)
+			(xy 167.64 104.14) (xy 167.64 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77884279-2eb0-4b65-942a-44776e59a8a1")
+		(uuid "81157a7f-71cf-4f94-aa32-eeb05c915281")
 	)
 	(wire
 		(pts
-			(xy 140.97 92.71) (xy 140.97 93.98)
+			(xy 130.81 93.98) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fd9fd38-9512-4760-a378-3bd1ebcaeb46")
+		(uuid "877f69ad-0d28-490d-924c-217d81d5bcc1")
 	)
 	(wire
 		(pts
-			(xy 165.1 92.71) (xy 165.1 101.6)
+			(xy 156.21 115.57) (xy 167.64 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81d9cc20-0f7d-47c5-b812-6eeeb4ed105e")
+		(uuid "8ba97abb-3626-487d-bd13-f235e61438e4")
 	)
 	(wire
 		(pts
-			(xy 130.81 92.71) (xy 140.97 92.71)
+			(xy 199.39 104.14) (xy 219.71 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "861289de-3397-407a-919d-d3cde1415970")
+		(uuid "94bcbafc-283e-4138-b0af-d99cee0199ac")
 	)
 	(wire
 		(pts
-			(xy 86.36 82.55) (xy 86.36 83.82)
+			(xy 170.18 93.98) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d410288-572b-4e0d-8eee-5bc1eb6316dc")
+		(uuid "9fa36b38-d23d-4116-ac13-1129fee05011")
 	)
 	(wire
 		(pts
-			(xy 140.97 101.6) (xy 140.97 102.87)
+			(xy 158.75 93.98) (xy 158.75 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90ddbc12-2822-44e5-99fa-0cf5a120dbf8")
+		(uuid "a34bb9a5-3ae0-4bf3-a7eb-f91f21c9efea")
 	)
 	(wire
 		(pts
-			(xy 109.22 100.33) (xy 110.49 100.33)
+			(xy 167.64 104.14) (xy 182.88 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "914739b2-2e2d-48f7-8598-35d45196aa89")
+		(uuid "a9a16a33-2dd0-4a6d-9c71-4c037b252150")
 	)
 	(wire
 		(pts
-			(xy 151.13 102.87) (xy 140.97 102.87)
+			(xy 110.49 76.2) (xy 110.49 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91de45a0-1307-4344-8e3b-544fc91649c9")
+		(uuid "b256da9b-fe00-453d-8b6a-bfd694deb58c")
 	)
 	(wire
 		(pts
-			(xy 193.04 85.09) (xy 193.04 92.71)
+			(xy 100.33 96.52) (xy 100.33 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "923dbfd3-97f0-4ed3-8ca4-67e3f24ac60f")
+		(uuid "bcc472f1-e234-4292-92cf-839ad46ca320")
 	)
 	(wire
 		(pts
-			(xy 190.5 95.25) (xy 190.5 101.6)
+			(xy 182.88 104.14) (xy 199.39 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "990997a3-1bec-4be5-9cf8-38501f913323")
+		(uuid "bd49e5ed-b358-464b-90c4-c8aca8e0fc7f")
 	)
 	(wire
 		(pts
-			(xy 165.1 92.71) (xy 140.97 92.71)
+			(xy 167.64 104.14) (xy 158.75 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "994c6798-122f-4507-84d4-3164f89419c7")
+		(uuid "c133b763-e884-4108-baf2-1524ec44d597")
 	)
 	(wire
 		(pts
-			(xy 195.58 88.9) (xy 195.58 101.6)
+			(xy 167.64 115.57) (xy 167.64 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9baeecaa-8f43-490c-9bc8-ebba475dc65f")
+		(uuid "c3d28c6f-b677-470f-867e-faa3bf4d7bb2")
 	)
 	(wire
 		(pts
-			(xy 204.47 86.36) (xy 204.47 85.09)
+			(xy 110.49 77.47) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f2107d0-bdf2-47fa-a031-4e5ea96d23a1")
+		(uuid "d6916ee9-f4b1-4a26-aced-a86fba27bd69")
 	)
 	(wire
 		(pts
-			(xy 204.47 95.25) (xy 204.47 93.98)
+			(xy 199.39 104.14) (xy 199.39 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fde7642-b2f2-4d9c-9b4a-c3b0b6df1248")
+		(uuid "ddbeed64-fed2-490a-b7c5-eb78c1fbf804")
 	)
 	(wire
 		(pts
-			(xy 162.56 95.25) (xy 151.13 95.25)
+			(xy 120.65 93.98) (xy 130.81 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1547081-3175-412c-81f6-61c28265f1bc")
+		(uuid "f0ad14b1-1f0d-4e7e-baf7-4e382016c6b6")
 	)
 	(wire
 		(pts
-			(xy 140.97 91.44) (xy 140.97 92.71)
+			(xy 95.25 77.47) (xy 110.49 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9fc344c-f55e-4dd3-a5fc-d668aefdcaeb")
+		(uuid "f0f468db-38b0-4b82-bad1-258039531644")
 	)
 	(wire
 		(pts
-			(xy 130.81 100.33) (xy 130.81 102.87)
+			(xy 158.75 102.87) (xy 158.75 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab50a6dc-0e37-4254-9118-7c12eb1a9540")
+		(uuid "fa58e767-1bc3-403b-8593-eff6f23ef21b")
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 86.36 77.47)
+			(xy 185.42 119.38) (xy 185.42 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abb32d28-5776-4155-98ae-fee5cf98532a")
+		(uuid "fc4887b1-7e35-4872-9a5e-ddef8ed0cd97")
 	)
 	(wire
 		(pts
-			(xy 105.41 73.66) (xy 120.65 73.66)
+			(xy 182.88 104.14) (xy 182.88 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af6c30ad-bd5d-4063-a349-9c8775603a3b")
-	)
-	(wire
-		(pts
-			(xy 109.22 95.25) (xy 109.22 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b52b6951-fe65-4895-9ba5-a30030f5640c")
-	)
-	(wire
-		(pts
-			(xy 160.02 99.06) (xy 160.02 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb6e5298-c754-4f5d-a505-74326f7034ca")
-	)
-	(wire
-		(pts
-			(xy 193.04 92.71) (xy 193.04 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2164e7a-ff72-49e1-8ce3-ce14635074a1")
-	)
-	(wire
-		(pts
-			(xy 153.67 99.06) (xy 153.67 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d55f4f03-c8c4-4e01-9807-6c465b104655")
-	)
-	(wire
-		(pts
-			(xy 80.01 73.66) (xy 86.36 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd5358bd-9e73-468c-bda9-537e12bacd4d")
-	)
-	(wire
-		(pts
-			(xy 204.47 95.25) (xy 190.5 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0b35901-f97d-48ca-8e42-2ccee6871f63")
-	)
-	(wire
-		(pts
-			(xy 109.22 97.79) (xy 109.22 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e156fcef-fd6a-41a8-8e53-ab6bf2826243")
-	)
-	(wire
-		(pts
-			(xy 105.41 73.66) (xy 105.41 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eed4b68f-bc4c-4ec8-91e9-d0458908e3d5")
-	)
-	(wire
-		(pts
-			(xy 160.02 99.06) (xy 153.67 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9c7e1d1-3017-4967-9182-a103aeea4393")
-	)
-	(wire
-		(pts
-			(xy 80.01 102.87) (xy 110.49 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd29affc-b3e2-4036-a7c6-05b986af80a7")
+		(uuid "ffe725b4-99bd-4da8-a953-9df78a60e6cb")
 	)
 	(rectangle
-		(start 66.04 55.372)
-		(end 217.17 125.73)
+		(start 62.23 60.452)
+		(end 236.22 152.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -2006,46 +2148,22 @@
 		(fill
 			(type none)
 		)
-		(uuid 3de83d2c-e443-43f7-834c-614cd0075123)
+		(uuid 9a3f484b-bb54-40c0-aee6-a36e2a9c41bd)
 	)
 	(text "SENSOR\n"
 		(exclude_from_sim no)
-		(at 154.178 63.246 0)
+		(at 156.21 73.66 0)
 		(effects
 			(font
 				(size 4 4)
 				(bold yes)
 			)
 		)
-		(uuid "ffdd9bf0-9567-43dd-8804-30a54ab859ab")
-	)
-	(hierarchical_label "RS485_TX"
-		(shape input)
-		(at 110.49 92.71 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "09b2b8cb-ead1-406f-a28f-ba8ee43c578f")
-	)
-	(hierarchical_label "EN_RS485"
-		(shape input)
-		(at 106.68 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "51ce8828-8c2e-4465-8e82-7fb235e158e3")
+		(uuid "920439f8-1491-4ddd-8c52-6d6471f19d31")
 	)
 	(hierarchical_label "RS485_RX"
 		(shape input)
-		(at 110.49 102.87 270)
+		(at 100.33 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2053,566 +2171,43 @@
 			)
 			(justify right)
 		)
-		(uuid "9ec9734a-2c64-45d0-b690-bb197c67ba6d")
+		(uuid "687ee399-ebe0-43be-a559-540074046d6c")
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 140.97 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(hierarchical_label "EN_RS485"
+		(shape input)
+		(at 100.33 99.06 180)
 		(fields_autoplaced yes)
-		(uuid "1aa9050e-23d3-4cb9-b7a9-2210556951a0")
-		(property "Reference" "R10"
-			(at 143.51 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "2.1k"
-			(at 143.51 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.748 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402"
-			(at 140.97 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "0402WGF1002TCE"
-			(at 140.97 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 140.97 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "75dd9fe0-9a8a-40d8-9a6f-3db6484bfda4")
-		)
-		(pin "1"
-			(uuid "e8ef6af6-5cff-480a-90c5-0d388786fdd5")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "70efc7b8-e953-43e3-8130-ed3c3e081028")
 	)
-	(symbol
-		(lib_id "Device:C")
-		(at 105.41 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "261f50ca-471d-481e-b637-cf5b37ba4e95")
-		(property "Reference" "C5"
-			(at 99.314 80.772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 98.806 82.5501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.3752 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0402"
-			(at 105.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "CL05B104KB54PNC"
-			(at 105.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 105.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "88739cc7-fec5-431f-a0df-0c2ceb640bc4")
-		)
-		(pin "1"
-			(uuid "1dfb032f-1d25-4a24-92ba-61964662e96c")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3be14e0b-6f61-4993-9b54-73b57e8b06c2")
-		(property "Reference" "R6"
-			(at 74.676 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 74.676 89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 81.788 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402"
-			(at 80.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "0402WGF1002TCE"
-			(at 80.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 80.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "324c7032-322b-4eac-9b80-c57cb752aa18")
-		)
-		(pin "1"
-			(uuid "cc74cdcb-ba2e-4eb6-a1c2-9d0ac4a4f422")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 120.65 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(hierarchical_label "RS485_TX"
+		(shape input)
+		(at 100.33 93.98 180)
 		(fields_autoplaced yes)
-		(uuid "47f6242b-3037-41a2-a58d-2e197a8f87a5")
-		(property "Reference" "#PWR015"
-			(at 120.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "+3.3V"
-			(at 120.65 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 120.65 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6830c110-b351-4dbc-98a7-207618cb1f97")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 140.97 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a38ec6e-36f7-4906-9419-85fdbee353ec")
-		(property "Reference" "R9"
-			(at 143.51 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "124"
-			(at 143.51 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.748 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402"
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "0402WGF1002TCE"
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e2ee8e4-b417-4237-b2f6-3d52cb68ce83")
-		)
-		(pin "1"
-			(uuid "9ac6bf9c-be9a-4756-9b1d-eb9135388105")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 153.67 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fb8e4a3-8295-4eb7-9a8c-76037f2d2a92")
-		(property "Reference" "#PWR019"
-			(at 153.67 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "006b4387-db3f-46d3-a70b-5534b2b723ca")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51367649-757f-4ff2-8459-57b4fdf10172")
-		(property "Reference" "#PWR016"
-			(at 120.65 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 114.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "122f5fdb-fedd-4546-80af-848a59ef2dee")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "8f308a44-f49c-4101-9fb1-ea2063ebb70d")
 	)
 	(symbol
 		(lib_id "Interface_UART:SN65HVD11HD")
-		(at 120.65 97.79 0)
+		(at 110.49 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "612d98d7-e00e-42bc-9bf5-9a4a4d83821c")
+		(uuid "0466b1ce-4505-4fd7-8fff-4a2d0e5dbe39")
 		(property "Reference" "U2"
-			(at 121.666 83.566 0)
+			(at 111.506 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2216,7 @@
 			)
 		)
 		(property "Value" "SN65HVD72DR"
-			(at 121.666 86.106 0)
+			(at 111.506 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2225,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 120.65 74.93 0)
+			(at 110.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2234,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810161612_Texas-Instruments-SN65HVD72DR_C48125.pdf"
-			(at 120.65 72.39 0)
+			(at 110.49 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2243,7 @@
 			)
 		)
 		(property "Description" "3.3V, RS-485 Transceiver, SOIC-8"
-			(at 120.65 97.79 0)
+			(at 110.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2252,7 @@
 			)
 		)
 		(property "LCSC" " C48125"
-			(at 120.65 97.79 0)
+			(at 110.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2261,7 @@
 			)
 		)
 		(property "MFR.Part" "SN65HVD72DR"
-			(at 120.65 97.79 0)
+			(at 110.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,28 +2270,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "a170ec86-30d0-4632-ab34-3154cdfbfcda")
+			(uuid "cfb25183-1254-40ce-bf6b-03a81fc06835")
 		)
 		(pin "6"
-			(uuid "065f93aa-c18c-4c4a-900c-00607c463d91")
+			(uuid "453a5394-c01d-4877-ab36-1e4a76f42f80")
 		)
 		(pin "3"
-			(uuid "5142d6fd-e4f3-4253-86c5-77cd3d258123")
+			(uuid "25841798-01ef-4a5c-a699-a4dbc5d53511")
 		)
 		(pin "2"
-			(uuid "3c15d5f9-30c2-43f2-a00a-6625b674f35b")
+			(uuid "64b5c270-9050-4695-8477-f0b9c1af8208")
 		)
 		(pin "4"
-			(uuid "0f8dd57f-4f6d-4bb7-ae50-db4351e53863")
+			(uuid "39da0ca0-22b3-4223-95ec-4e3e098018cf")
 		)
 		(pin "8"
-			(uuid "12c0dc2f-5b86-40b2-8da9-1fd5d0438ab6")
+			(uuid "317078be-7a64-4387-ab5e-b08a3528a7eb")
 		)
 		(pin "1"
-			(uuid "2c80bae5-5449-462e-a2f7-f52bdaab11a0")
+			(uuid "aa5d7d5c-1477-4c17-9dad-18da46de7efd")
 		)
 		(pin "5"
-			(uuid "2bf713b8-5c02-4928-a3e6-86f5cf7a5c75")
+			(uuid "4b23a2b8-b969-445d-8d0a-baab78c44a05")
 		)
 		(instances
 			(project "LCD High Revolution"
@@ -2708,449 +2303,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 190.5 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90909e88-2e01-4e29-af57-128779173aac")
-		(property "Reference" "J4"
-			(at 191.77 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EC SENSOR"
-			(at 191.77 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.81_1x04_P3.81mm_Vertical"
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ca3fd5fe-b149-4d69-bb03-842c33f645f8")
-		)
-		(pin "1"
-			(uuid "a4bc2820-133b-488e-a855-5878e6cf2b0f")
-		)
-		(pin "2"
-			(uuid "b7417719-830a-4463-9de2-3ddcfd98e81b")
-		)
-		(pin "3"
-			(uuid "3ae5045d-1439-4701-9d1a-d42595b3093e")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 167.64 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9674f516-c7d3-4f80-9add-d1257a935c9a")
-		(property "Reference" "#PWR020"
-			(at 167.64 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 167.64 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 167.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e7fcf61-8ec1-4321-b740-d0ded86fd13a")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 86.36 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bbd7490-3f66-41ef-915f-c4cf8a9f5548")
-		(property "Reference" "D3"
-			(at 87.884 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 87.376 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 86.36 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 86.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2df4ec93-2653-4670-9a0b-483216c4d161")
-		)
-		(pin "2"
-			(uuid "cf2764fa-cc6f-4c70-8fbe-23225226ec25")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4241687-5c28-438d-bd50-c475b8b15f8b")
-		(property "Reference" "#PWR017"
-			(at 140.97 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22f91899-f588-4fa5-9dff-cf5f90dafbf2")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 80.01 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a59dd429-0ccf-4cce-afca-b4697e3a2a06")
-		(property "Reference" "D2"
-			(at 74.422 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 68.072 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 80.01 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d61dae6e-5d59-4c61-8742-9f393d956c2f")
-		)
-		(pin "2"
-			(uuid "dfb996f5-5b5d-445d-af28-9290f09b0c67")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7510280-1918-4b7b-ad06-5cf26eed0e0a")
-		(property "Reference" "R11"
-			(at 207.01 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "120"
-			(at 207.01 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 206.248 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "0402WGF1002TCE"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0ef2b19-2886-4826-ae47-3d34e2226c34")
-		)
-		(pin "1"
-			(uuid "ed9f0a89-bb6d-4831-9138-cf33cd3ad207")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 140.97 111.76 180)
+		(at 110.49 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb7efdd6-0250-4c25-b37f-331f79c9b41a")
-		(property "Reference" "#PWR018"
-			(at 140.97 107.95 0)
+		(uuid "079329c4-f789-4d41-880d-4765906e0014")
+		(property "Reference" "#PWR015"
+			(at 110.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +2322,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 140.97 116.84 0)
+			(at 110.49 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +2330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 111.76 0)
+			(at 110.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +2339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 111.76 0)
+			(at 110.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +2348,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 140.97 111.76 0)
+			(at 110.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,47 +2357,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fd636b4-c9f2-4bec-a747-326cd4f38f81")
+			(uuid "bb3dacf1-db9e-43dc-a6e6-5babe64556d4")
 		)
 		(instances
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 140.97 87.63 180)
+		(lib_id "Connector:TestPoint")
+		(at 156.21 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daa916cc-c61f-46df-b38a-f9cedf998a58")
-		(property "Reference" "R8"
-			(at 143.51 86.3599 0)
+		(uuid "0ddf8a06-6203-4323-85aa-88f11bd9767d")
+		(property "Reference" "TP2"
+			(at 154.432 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "2.1k"
-			(at 143.51 88.8999 0)
+		(property "Value" "TestPoint"
+			(at 151.638 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.748 87.63 90)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,7 +2405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 87.63 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,43 +2413,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402"
-			(at 140.97 87.63 0)
+		(property "Description" "test point"
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MFR" "0402WGF1002TCE"
-			(at 140.97 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 140.97 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "359bf793-e875-4d60-8690-33fbd4062ee9")
 		)
 		(pin "1"
-			(uuid "0aa5efdd-d42b-416e-8c8f-c620aea845da")
+			(uuid "68a3ffd7-21e2-4b19-8f87-14c61f2dc41b")
 		)
 		(instances
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "R8")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3295,31 +2436,31 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 162.56 106.68 90)
+		(at 180.34 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e0d90c72-885c-47d4-8a16-07fa694e04ee")
+		(uuid "1602b6cc-6ca8-4642-b097-8be50352b0b9")
 		(property "Reference" "J3"
-			(at 163.83 109.22 90)
+			(at 181.61 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PH SENSOR"
-			(at 163.83 111.76 90)
+		(property "Value" "SENSOR"
+			(at 181.61 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.81_1x04_P3.81mm_Vertical"
-			(at 162.56 106.68 0)
+		(property "Footprint" "DC Conn:Modbus"
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +2469,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 106.68 0)
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +2478,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 162.56 106.68 0)
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,16 +2487,16 @@
 			)
 		)
 		(pin "4"
-			(uuid "69771833-cbb0-4f63-9441-03d0f4ebe707")
+			(uuid "42ea66d8-f2b1-43f1-abe5-71c5f412674f")
 		)
 		(pin "1"
-			(uuid "80220b96-204e-4199-a5f5-0b3c57c945bc")
+			(uuid "25c8b59e-cfe0-441e-b391-e4b6d7cd3637")
 		)
 		(pin "2"
-			(uuid "a65e0948-10da-4c9f-b1ac-a64c33fbe53b")
+			(uuid "4eca8ffb-ada8-4c31-96dd-4ad5e216bcb6")
 		)
 		(pin "3"
-			(uuid "58d0df42-1143-4c01-8d24-47af2567eeb0")
+			(uuid "27e5efd7-2905-4206-bf0f-8c494af78cb3")
 		)
 		(instances
 			(project "LCD High Revolution"
@@ -3368,16 +2509,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 83.82 0)
+		(at 110.49 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e365433d-e795-4578-a737-7292f85aa1f8")
-		(property "Reference" "#PWR014"
-			(at 105.41 90.17 0)
+		(uuid "2371d2c8-7018-481f-ace5-08dc21709179")
+		(property "Reference" "#PWR016"
+			(at 110.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +2526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 88.9 0)
+			(at 110.49 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +2534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 83.82 0)
+			(at 110.49 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +2543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 83.82 0)
+			(at 110.49 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +2552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 83.82 0)
+			(at 110.49 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,7 +2561,1115 @@
 			)
 		)
 		(pin "1"
-			(uuid "b25e4755-4510-4d88-a408-24f4c3b319d1")
+			(uuid "56723465-c699-4f97-bd1e-35e541b09655")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3689aba2-1c61-486e-86c6-c7232211b8b0")
+		(property "Reference" "R9"
+			(at 133.35 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "124"
+			(at 133.35 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 132.588 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0402WGF1002TCE"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28019ea4-2f7e-480d-b8da-e98c7e994316")
+		)
+		(pin "1"
+			(uuid "9640acab-fee8-4133-9555-145eb3e7551c")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 196.85 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39a05492-49d6-4611-b87e-4da6cae1471c")
+		(property "Reference" "J9"
+			(at 198.12 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SENSOR"
+			(at 198.12 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DC Conn:Modbus"
+			(at 196.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 196.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c84685c5-a73d-4943-9d1d-e5bada3535ad")
+		)
+		(pin "1"
+			(uuid "0f43593b-4fc3-41f7-950a-20cef0950ac1")
+		)
+		(pin "2"
+			(uuid "61c04d1b-9a3f-4fe3-bb56-0b0ab02fdc7f")
+		)
+		(pin "3"
+			(uuid "658aceee-4d69-41c4-a4a6-c702585799bf")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 185.42 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b06e51f-a8a5-4231-866f-9ec3aeaa2d76")
+		(property "Reference" "#PWR020"
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d57ee4-2830-4962-a812-3b44709c7089")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 167.64 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e403303-fbb0-48f4-87f7-6461ec3fec20")
+		(property "Reference" "J1"
+			(at 167.64 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 161.036 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DC Conn:Modbus"
+			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e365be0a-e310-44ba-9287-9cbc030bfd16")
+		)
+		(pin "1"
+			(uuid "8d79afa3-2b3a-4d37-873e-9d24955f4ab0")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 158.75 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52f5145c-fedc-4c8d-a05f-7111b6d55fd3")
+		(property "Reference" "D4"
+			(at 161.29 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 161.29 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b7dfcea-cbdc-422c-973e-de446c8b7ddc")
+		)
+		(pin "1"
+			(uuid "4afe465c-1009-491e-82b7-dcddc6522453")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "611aba5d-9097-49fc-9fbf-f9da72cf89fb")
+		(property "Reference" "R10"
+			(at 133.35 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.1k"
+			(at 133.35 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 132.588 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0402WGF1002TCE"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02728a9f-10fd-406c-9808-8cf2562a64ba")
+		)
+		(pin "1"
+			(uuid "a797af05-1747-4064-9f68-b6cf89647c76")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8198557e-5034-4d3e-8549-462eb40e2416")
+		(property "Reference" "#PWR017"
+			(at 130.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce73a0d6-5c71-4a18-aba6-7a6b027af6a3")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8865d309-dbe3-44d9-a02f-0707028c3180")
+		(property "Reference" "#PWR024"
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "046b49f2-2c17-4b2f-be74-2a6dd77c48cb")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcfc4ca9-0363-47e6-962e-f9230a2dc80c")
+		(property "Reference" "TP1"
+			(at 142.748 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 140.462 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93df1d56-8d1c-4961-963e-4fa81d2e2eea")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3d6c25d-2c9a-4ba2-b112-d12a0ed8d788")
+		(property "Reference" "C5"
+			(at 89.154 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 88.646 83.8201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 96.2152 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402"
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CL05B104KB54PNC"
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21a2f1ce-0d52-423b-92f6-fec49589f3ec")
+		)
+		(pin "1"
+			(uuid "1afd25a2-5b08-49aa-a22c-981c3a973797")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf3589bc-aa10-4c3c-8990-4b2856bfa835")
+		(property "Reference" "R8"
+			(at 133.35 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.1k"
+			(at 133.35 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 132.588 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0402WGF1002TCE"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ee06128-2727-491d-a7a3-6c234ed7bd67")
+		)
+		(pin "1"
+			(uuid "a6f27763-51ce-4ddf-8be7-f276828b57d2")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 201.93 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d638335b-2d2b-4dd2-9790-7e8aeb53d43c")
+		(property "Reference" "#PWR025"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 201.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0a90256-3865-414b-9fd1-3333907ea4c2")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfd92f8e-941a-4005-afbc-5a9c0f85f250")
+		(property "Reference" "#PWR019"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d69f13d-78d8-4915-b645-c266464a1459")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f10f01e1-d235-489f-abaf-e1d3a007fa08")
+		(property "Reference" "R11"
+			(at 222.25 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120"
+			(at 222.25 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 221.488 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0402WGF1002TCE"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04849165-40d5-42fd-a381-4992adb52b8c")
+		)
+		(pin "1"
+			(uuid "0b4190cf-6bd0-4e2d-9f87-0995b70058e1")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f11d2c5f-6f2b-4167-a7f5-a112b200fa83")
+		(property "Reference" "#PWR014"
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3c70171-92ff-45b7-85db-47fa30ee9c0f")
 		)
 		(instances
 			(project "LCD High Revolution"
@@ -3433,34 +3681,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 86.36 87.63 180)
+		(lib_id "power:+3.3V")
+		(at 130.81 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e8a6e5c7-f392-436c-8829-35fa658c8c91")
-		(property "Reference" "R7"
-			(at 88.138 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 88.138 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 88.138 87.63 90)
+		(fields_autoplaced yes)
+		(uuid "f742ab5e-c7c4-4815-ba51-388c413792d8")
+		(property "Reference" "#PWR018"
+			(at 130.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,8 +3699,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 86.36 87.63 0)
+		(property "Value" "+3.3V"
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,8 +3716,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402"
-			(at 86.36 87.63 0)
+		(property "Datasheet" ""
+			(at 130.81 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,34 +3725,22 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "0402WGF1002TCE"
-			(at 86.36 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 130.81 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC" "C25744"
-			(at 86.36 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef40d9e6-2ecc-4df2-99d9-0549606f6387")
 		)
 		(pin "1"
-			(uuid "298a1c9e-8733-4818-a907-1e88d3398651")
+			(uuid "cb8ce8f4-d6a9-4cee-bcab-b4647265ddf2")
 		)
 		(instances
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "R7")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
