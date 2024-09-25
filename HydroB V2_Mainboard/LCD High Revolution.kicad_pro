@@ -618,6 +618,10 @@
       "LED"
     ],
     [
+      "5ca1fda6-be4d-4661-a66c-0bc7df0aaf8e",
+      "UART"
+    ],
+    [
       "02fbcb66-5250-4d03-96d3-712f7ba2e5b8",
       "Modbus"
     ],

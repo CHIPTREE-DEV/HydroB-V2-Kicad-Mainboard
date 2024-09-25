@@ -7,6 +7,26 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 179.07 113.03) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be082ff-4fa1-4f1e-8f31-557a8880e44f")
+	)
+	(wire
+		(pts
+			(xy 179.07 102.87) (xy 168.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca39448-624e-4e4b-92ad-5b29346bb1c3")
+	)
+	(wire
+		(pts
 			(xy 111.76 73.66) (xy 128.27 73.66)
 		)
 		(stroke
@@ -67,6 +87,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 123.19) (xy 156.21 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43548e67-2f86-44ee-89f8-abd738b52292")
+	)
+	(wire
+		(pts
 			(xy 179.07 82.55) (xy 179.07 85.09)
 		)
 		(stroke
@@ -84,6 +114,16 @@
 			(type default)
 		)
 		(uuid "56c6998b-8274-48ff-9e36-09c6f1e6f35c")
+	)
+	(wire
+		(pts
+			(xy 184.15 118.11) (xy 173.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5845b0bd-a0a2-42b1-8628-cf42f9312142")
 	)
 	(wire
 		(pts
@@ -197,6 +237,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 113.03) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22fdca4-955b-485e-911b-353da0b58543")
+	)
+	(wire
+		(pts
 			(xy 180.34 71.12) (xy 180.34 68.58)
 		)
 		(stroke
@@ -207,6 +257,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 133.35) (xy 184.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfdcc46-2db9-4484-a29b-ff8710cda1a4")
+	)
+	(wire
+		(pts
+			(xy 162.56 123.19) (xy 162.56 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ce354d-a9d3-4980-87f6-bf98792fbaec")
+	)
+	(wire
+		(pts
 			(xy 179.07 85.09) (xy 168.91 85.09)
 		)
 		(stroke
@@ -214,6 +284,36 @@
 			(type default)
 		)
 		(uuid "d487b6ba-5070-45d2-9f2d-4ca9b51a067d")
+	)
+	(wire
+		(pts
+			(xy 162.56 128.27) (xy 184.15 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7632bc8-aa1f-4b6d-8103-3e4dd00f1022")
+	)
+	(wire
+		(pts
+			(xy 173.99 118.11) (xy 173.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da245019-cfce-46e6-9e57-72cf18740fe2")
+	)
+	(wire
+		(pts
+			(xy 173.99 109.22) (xy 168.91 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffac4a9b-28d7-4348-af32-fbf4382853e5")
 	)
 	(sheet
 		(at 128.27 60.96)
@@ -335,6 +435,46 @@
 			)
 			(uuid "d860f031-25f0-4d3c-87e0-6b583e6ff239")
 		)
+		(pin "UART_RX" input
+			(at 156.21 123.19 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e260776c-1db1-464a-814e-23199a2008f7")
+		)
+		(pin "UART_TX" input
+			(at 162.56 123.19 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f2df8310-2963-4fb9-98ba-bc42f264545f")
+		)
+		(pin "BOOT" input
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e0f66cb-88c7-4324-bbac-e3ccaf1aa020")
+		)
+		(pin "RESET" input
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "12eb4bd6-4ffe-4779-9bcb-2c6bb1d0002f")
+		)
 		(instances
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022"
@@ -408,6 +548,84 @@
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 108.966)
+		(size 23.622 28.448)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "5ca1fda6-be4d-4661-a66c-0bc7df0aaf8e")
+		(property "Sheetname" "UART"
+			(at 184.15 108.2544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UART.kicad_sch"
+			(at 184.15 137.9986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RESET" input
+			(at 184.15 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "403fb0fc-52ae-4a90-a616-0755e1401595")
+		)
+		(pin "BOOT" input
+			(at 184.15 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f463c931-e1ba-4893-92c3-23dd37c2b23b")
+		)
+		(pin "UART_TX" input
+			(at 184.15 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ad07538c-d3be-4daa-b869-e7ce91f72c0e")
+		)
+		(pin "UART_RX" input
+			(at 184.15 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8464fd7-47c1-48c0-8908-b92416d1b4b6")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022"
+					(page "7")
 				)
 			)
 		)

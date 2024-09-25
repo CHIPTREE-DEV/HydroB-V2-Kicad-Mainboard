@@ -863,7 +863,7 @@
 	)
 	(text "LED INDICATOR AND CONNECTOR"
 		(exclude_from_sim no)
-		(at 133.35 68.072 0)
+		(at 118.364 70.866 0)
 		(effects
 			(font
 				(size 2 2)
