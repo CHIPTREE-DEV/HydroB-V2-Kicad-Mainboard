@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "627e0c67-00a2-494e-88cd-c06642569f0f")
 	(paper "A4")
+	(title_block
+		(title "Prak Chilifong")
+		(date "2024-10-06")
+		(rev "2.0")
+		(company "Modbus")
+		(comment 1 "Mainboard PCB")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -1649,6 +1656,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 182.88 104.14)
@@ -1673,6 +1776,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "453cab4d-f5e3-40f1-8554-e12630bbb491")
+	)
+	(junction
+		(at 201.93 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57ef7912-7880-4b5e-9a89-b007c6f21d4f")
 	)
 	(junction
 		(at 170.18 118.11)
@@ -1790,7 +1899,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 115.57) (xy 201.93 119.38)
+			(xy 201.93 115.57) (xy 201.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1837,6 +1946,16 @@
 			(type default)
 		)
 		(uuid "36b5b5dc-5761-4066-8833-021af3884c9e")
+	)
+	(wire
+		(pts
+			(xy 201.93 118.11) (xy 201.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c52d396-077f-48ae-99b7-1cac522d6266")
 	)
 	(wire
 		(pts
@@ -1917,6 +2036,16 @@
 			(type default)
 		)
 		(uuid "5c46a6f3-1d1b-460f-a3f5-9fcebcfb40ce")
+	)
+	(wire
+		(pts
+			(xy 212.09 115.57) (xy 212.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639084a5-647e-4bb0-8477-63b5367573e7")
 	)
 	(wire
 		(pts
@@ -2030,6 +2159,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 118.11) (xy 212.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b759ec67-a01e-4ce5-996a-31df65d89632")
+	)
+	(wire
+		(pts
 			(xy 100.33 96.52) (xy 100.33 101.6)
 		)
 		(stroke
@@ -2080,6 +2219,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 115.57) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7af49db-27d8-44f3-9758-85bd844c8066")
+	)
+	(wire
+		(pts
 			(xy 199.39 104.14) (xy 199.39 119.38)
 		)
 		(stroke
@@ -2120,16 +2269,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 119.38) (xy 185.42 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc4887b1-7e35-4872-9a5e-ddef8ed0cd97")
-	)
-	(wire
-		(pts
 			(xy 182.88 104.14) (xy 182.88 119.38)
 		)
 		(stroke
@@ -2152,7 +2291,7 @@
 	)
 	(text "SENSOR\n"
 		(exclude_from_sim no)
-		(at 156.21 73.66 0)
+		(at 151.384 41.91 0)
 		(effects
 			(font
 				(size 4 4)
@@ -2573,6 +2712,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 201.93 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27d9be77-5567-46c1-9724-a0de12e2f9b8")
+		(property "Reference" "#PWR025"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 201.93 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ec9b4da-b488-47c7-9426-9fa412d0166b")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 185.42 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b97c4a2-c601-4d5e-a78f-6418112d8712")
+		(property "Reference" "#PWR020"
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33feed94-c14f-45aa-9150-f217482ad878")
+		)
+		(instances
+			(project "LCD High Revolution"
+				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 130.81 99.06 180)
 		(unit 1)
@@ -2734,16 +3003,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 185.42 115.57 0)
+		(lib_id "power:PWR_FLAG")
+		(at 212.09 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3b06e51f-a8a5-4231-866f-9ec3aeaa2d76")
-		(property "Reference" "#PWR020"
-			(at 185.42 119.38 0)
+		(fields_autoplaced yes)
+		(uuid "3a8460a2-8b58-4e65-8125-1fc5f107e3a1")
+		(property "Reference" "#FLG03"
+			(at 212.09 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,8 +3021,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 185.42 111.76 0)
+		(property "Value" "PWR_FLAG"
+			(at 212.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +3030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 115.57 0)
+			(at 212.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,8 +3038,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 185.42 115.57 0)
+		(property "Datasheet" "~"
+			(at 212.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,8 +3047,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 185.42 115.57 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 212.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,12 +3057,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "96d57ee4-2830-4962-a812-3b44709c7089")
+			(uuid "aae75301-f686-4614-98f4-3c94a448a798")
 		)
 		(instances
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "#PWR020")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -3391,71 +3661,6 @@
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 201.93 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d638335b-2d2b-4dd2-9790-7e8aeb53d43c")
-		(property "Reference" "#PWR025"
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 201.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 201.93 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0a90256-3865-414b-9fd1-3333907ea4c2")
-		)
-		(instances
-			(project "LCD High Revolution"
-				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022/02fbcb66-5250-4d03-96d3-712f7ba2e5b8"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)

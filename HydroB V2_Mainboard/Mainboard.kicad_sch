@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "d2a36e1f-fec3-490e-b886-dde607a861ec")
 	(paper "A4")
+	(title_block
+		(title "Prak Chilifong")
+		(date "2024-10-06")
+		(rev "2.0")
+		(company "Project review of ESP32-S3")
+		(comment 1 "Mainboard PCB")
+	)
 	(lib_symbols)
 	(wire
 		(pts
@@ -127,16 +134,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 105.41) (xy 128.27 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78315998-04c6-4feb-9302-8cc1dd2a9560")
-	)
-	(wire
-		(pts
 			(xy 187.96 82.55) (xy 179.07 82.55)
 		)
 		(stroke
@@ -144,26 +141,6 @@
 			(type default)
 		)
 		(uuid "80af9b8c-f0d0-4fba-a92f-a2c372ea7e9b")
-	)
-	(wire
-		(pts
-			(xy 110.49 121.92) (xy 121.92 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81550ab2-387d-42b2-9cf2-2883544df2d2")
-	)
-	(wire
-		(pts
-			(xy 116.84 116.84) (xy 116.84 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a4b0eb1-22d9-4704-bb6d-ec362ed4bd58")
 	)
 	(wire
 		(pts
@@ -177,16 +154,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 128.27 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92781d68-280c-450c-a46f-a845950ee709")
-	)
-	(wire
-		(pts
 			(xy 111.76 78.74) (xy 128.27 78.74)
 		)
 		(stroke
@@ -194,16 +161,6 @@
 			(type default)
 		)
 		(uuid "93034b71-e636-41ba-91e4-16dc28fe782a")
-	)
-	(wire
-		(pts
-			(xy 110.49 116.84) (xy 116.84 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b95144b-da19-4572-8e10-28d6449629cf")
 	)
 	(wire
 		(pts
@@ -224,16 +181,6 @@
 			(type default)
 		)
 		(uuid "b82c2db2-1e56-4b27-9f65-9432f7db5712")
-	)
-	(wire
-		(pts
-			(xy 121.92 121.92) (xy 121.92 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd4a4ba2-8fc9-43b5-9c78-c98eff1427ff")
 	)
 	(wire
 		(pts
@@ -344,26 +291,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "D-" input
-			(at 128.27 111.76 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1ba057ba-2186-4455-a183-e28f19e8efbf")
-		)
-		(pin "D+" input
-			(at 128.27 105.41 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "89cc4769-e59a-4b72-86bc-09b69d530391")
 		)
 		(pin "EN_RS485" input
 			(at 128.27 68.58 180)
@@ -547,7 +474,7 @@
 		(instances
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022"
-					(page "8")
+					(page "6")
 				)
 			)
 		)
@@ -625,7 +552,7 @@
 		(instances
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022"
-					(page "7")
+					(page "5")
 				)
 			)
 		)
@@ -659,30 +586,10 @@
 				(justify left top)
 			)
 		)
-		(pin "D-" input
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "70af3a8e-fd55-42b6-abae-50a3cae7cbd9")
-		)
-		(pin "D+" input
-			(at 110.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "cd19336a-8530-40d9-a5d7-ea498461088c")
-		)
 		(instances
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022"
-					(page "8")
+					(page "7")
 				)
 			)
 		)
@@ -761,7 +668,7 @@
 		(instances
 			(project "LCD High Revolution"
 				(path "/7eaed49e-949c-4b32-bb59-42041e199453/cb3a589e-3872-4cde-9770-3d39d4934022"
-					(page "6")
+					(page "4")
 				)
 			)
 		)

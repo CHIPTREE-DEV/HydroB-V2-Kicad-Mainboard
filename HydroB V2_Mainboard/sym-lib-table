@@ -3,4 +3,7 @@
   (lib (name "NS2009")(type "KiCad")(uri "D:/kicad file/NS2009/NS2009.kicad_sym")(options "")(descr ""))
   (lib (name "74VHC86M")(type "KiCad")(uri "D:/kicad file/74VHC86M/74VHC86M.kicad_sym")(options "")(descr ""))
   (lib (name "CAY16-1002F4LF")(type "KiCad")(uri "D:/kicad file/CAY16-1002F4LF/CAY16-1002F4LF.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS7A2633DRVR")(type "KiCad")(uri "D:/kicad file/TPS7A2633DRVR/TPS7A2633DRVR.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-S3-WROOM-1-N16R2")(type "KiCad")(uri "D:/kicad file/ESP32-S3-WROOM-1-N16R2/ESP32-S3-WROOM-1-N16R2.kicad_sym")(options "")(descr ""))
+  (lib (name "S8050")(type "KiCad")(uri "D:/kicad file/SMD-TRANSISTORS-NPN-25V-500MW_SOT-23_/SMD-TRANSISTORS-NPN-25V-500MW_SOT-23_.kicad_sym")(options "")(descr ""))
 )

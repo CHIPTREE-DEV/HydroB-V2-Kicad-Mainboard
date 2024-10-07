@@ -4,8 +4,15 @@
 	(generator_version "8.0")
 	(uuid "7eaed49e-949c-4b32-bb59-42041e199453")
 	(paper "A4")
+	(title_block
+		(title "Prak Chilifong")
+		(date "2024-10-06")
+		(rev "2.0")
+		(company "Root")
+		(comment 1 "Mainboard PCB")
+	)
 	(lib_symbols)
-	(text "Sheet 1: Root\n\nSheet 2: Project review of ESP32-S3\n\nSheet 3: Modbus\n\nSheet 4: Power Supply\n\nSheet 5: LED Indicator\n"
+	(text "Sheet 1: Root\n\nSheet 2: Mainboard\n\nSheet 3: Modbus\n\nSheet 4: Power Supply\n\nSheet 5: LED Indicator\n\nSheet 6: UART\n"
 		(exclude_from_sim no)
 		(at 24.892 71.882 0)
 		(effects
