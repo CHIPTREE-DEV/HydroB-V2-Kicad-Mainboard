@@ -1252,16 +1252,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
+			(property "Description" "500-mA, 18-V, ultra-low-IQ, high-accuracy, adjustable low-dropout voltage regulator with power good 6-WSON -40 to 125"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1271,7 +1262,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "500-mA, 18-V, ultra-low-IQ, high-accuracy, adjustable low-dropout voltage regulator with power good 6-WSON -40 to 125"
+			(property "MF" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
